@@ -148,6 +148,11 @@ footer {
   img {
     border-radius: .8rem;
   }
+  
+ main .gatuno {
+    width: 100vw;
+    max-width: 60rem;
+  }
 
   #app {
     display: grid;
@@ -187,6 +192,11 @@ footer {
     grid-area: main;
   }
 
+  main p {
+    width: 100vw;
+    max-width: 60rem;
+  }
+
   main .container {
     max-width: 80rem;
     margin-left: auto;
@@ -212,6 +222,5 @@ header {
 @keyframes fromTop {
   from {
     transform: translateY(-100%);
-
   }
 }
